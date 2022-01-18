@@ -1,0 +1,150 @@
+.card-details {
+  background-color: #272727;
+  color: white;
+  width: 95%;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.card-bg {
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+.skills-cont {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill {
+  display: flex;
+  width: 30%;
+  margin-bottom: 30px;
+}
+.skill-img {
+  height: 45px;
+  width: 45px;
+  margin-right: 15px;
+}
+.heading {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.job-img {
+  height: 50px;
+  width: 50px;
+}
+.life-cont {
+  display: flex;
+}
+.rating-cont {
+  display: flex;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.star {
+  color: #fbbf24;
+  margin-right: 5px;
+  align-self: center;
+}
+.head-rating {
+  margin-left: 10px;
+}
+.rating {
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.img-heading {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.location {
+  align-self: center;
+  margin-right: 5px;
+}
+
+.location-type-cont {
+  display: flex;
+  margin-top: 15px;
+}
+.location-type-pack-cont {
+  display: flex;
+  justify-content: space-between;
+}
+.location-cont {
+  margin-right: 10px;
+}
+
+.line {
+  border-top: 2px solid #475569;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+}
+
+.desc-head {
+  padding: 0px;
+  margin: 0px;
+}
+
+.package {
+  align-self: flex-end;
+  margin: 0px;
+  padding: 0px;
+}
+
+.link-content {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+.life-img {
+  margin-left: 40px;
+}
+
+.similar-cont {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-similar {
+  width: 28%;
+  background-color: #272727;
+  color: white;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.desc-similar {
+  margin-top: 30px;
+}
+
+.visit-cont {
+  display: flex;
+}
+.visit {
+  align-self: center;
+  margin: 0px;
+  padding: 0px;
+}
+.link {
+  align-self: center;
+  margin-left: 8px;
+}
+
+.descri-cont {
+  display: flex;
+  justify-content: space-between;
+}

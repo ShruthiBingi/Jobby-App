@@ -1,0 +1,61 @@
+.nav-container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #202020;
+  padding: 15px;
+  color: white;
+}
+
+.home-jobs {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  align-self: center;
+}
+
+.logo {
+  height: 35px;
+  margin-left: 50px;
+}
+
+.jobs-header {
+  text-decoration: none;
+  color: #f8fafc;
+}
+
+.home-header {
+  text-decoration: none;
+  color: #f8fafc;
+  margin-right: 15px;
+}
+
+.logout-but {
+  margin-top: 10px;
+  margin-right: 50px;
+  background-color: #4f46e5;
+  border: 0px;
+  height: 30px;
+  color: #f8fafc;
+  width: 100px;
+}
+
+@media all and (max-width: 576px) {
+  .header-icon {
+    height: 40px;
+    width: 40px;
+  }
+  .home {
+    display: none;
+  }
+  .logout-but {
+    display: none;
+    list-style-type: none;
+  }
+}
+
+@media all and (min-width: 576px) {
+  .header-icon {
+    display: none;
+  }
+}
